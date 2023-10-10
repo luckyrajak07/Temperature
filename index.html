@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col col-lg-6 col-12 enter_temperature_col">
+           <h1>Enter Temperature</h1>
+           <h3>Degree</h3>
+           <input type="number" id="numberInput">
+           <select id="temperature" name="">
+            <option value="celcius">Celcius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+          <h3>Convert into</h3>
+          <select id="outputUnit" name="">
+            <option value="celcius">Celcius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+          <div class="button_div">
+            <button class="btn">Convert</button>
+          </div>
+          
+        </div>
+        <div class="col col-lg-6 col-12 display_temperature_col">
+           <h1 class="result">Input the values</h1>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
